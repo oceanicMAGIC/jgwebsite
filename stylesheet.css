@@ -6,7 +6,8 @@ body {
 
 nav {
     position: fixed;
-    right: 78px;
+    right: 12px;
+    text-align: center;
     background-color: rgb(180, 138, 219);
     padding-left: 0;
     z-index: 1;
@@ -40,8 +41,8 @@ a:hover {
     padding-left: 12px;
     padding-right: 12px;
     margin-bottom: 138px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
     border: 2px solid pink;
     background-color: rgba(207, 207, 152, 0.73);
 }
