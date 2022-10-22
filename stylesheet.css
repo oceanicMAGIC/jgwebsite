@@ -115,7 +115,13 @@ td {
 
 table, th, td {
     border: 1px solid pink;
+    word-wrap: break-word;
   }
+
+table {
+    table-layout: fixed;
+    width: 100%;   
+}
 
 /* .flexarea {
     display: flex;
