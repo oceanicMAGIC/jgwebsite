@@ -76,8 +76,9 @@ p {
     /* position: sticky;
     top: -270px; */
     /* background-color: rgba(207, 207, 152, 1);*/
-    background-image: url(./images/jesseheaderpic.jpg);
+    background-image: url("./images/jesseheaderpic.jpg");
     height: 633px;
+/*     background-image: url("./images/background1.JPG"); */
 }
 
 #stickynamediv {
