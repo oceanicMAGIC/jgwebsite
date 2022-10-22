@@ -70,9 +70,11 @@ p {
 }
 
 #top {
-    position: sticky;
-    top: -299px;
-    background-color: rgba(207, 207, 152, 1);
+    /* position: sticky;
+    top: -270px; */
+    /* background-color: rgba(207, 207, 152, 1);*/
+    background-image: url(./images/jesse\ header\ pic.jpg);
+    height: 633px;
 }
 
 
