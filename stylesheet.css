@@ -7,8 +7,7 @@ body {
 nav {
     position: fixed;
     top: 0px;
-    font-size: 13px;
-    
+    font-size: 13px;    
     background-color: rgb(180, 138, 219);
     z-index: 1;
 }
@@ -21,8 +20,6 @@ li {
 }
 
 
-
-
 a {
     color: rgb(114, 66, 158);
 }
@@ -31,7 +28,6 @@ a:hover {
     font-style: italic;
     cursor: grab;
 }
-
 
 
 .section {
@@ -60,7 +56,7 @@ h1 {
 h2 {
     display: block;
     font-weight: 200;
-    text-align: center;
+    text-align: right;
 }
 
 h3 {
