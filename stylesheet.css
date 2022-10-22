@@ -73,7 +73,6 @@ p {
 }
 
 #top {
-    /* background-color: rgba(207, 207, 152, 1);*/
     background-image: url(./images/jesseheaderpic.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -103,7 +102,7 @@ p {
 .stickytitles {
     position: sticky;
     top: 60px;
-    text-align: right;
+    text-align: right !important;
 }
 
 
