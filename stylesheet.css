@@ -60,7 +60,7 @@ h1 {
 h2 {
     display: block;
     font-weight: 200;
-    text-align: center;
+    /* text-align: center; */
 }
 
 h3 {
@@ -73,12 +73,12 @@ p {
 }
 
 #top {
-    /* position: sticky;
-    top: -270px; */
     /* background-color: rgba(207, 207, 152, 1);*/
-    background-image: url("./images/jesseheaderpic.jpg");
-    height: 633px;
-/*     background-image: url("./images/background1.JPG"); */
+    background-image: url(./images/jesseheaderpic.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 630px;    
+    margin-bottom: 30px;
 }
 
 #stickynamediv {
@@ -86,8 +86,9 @@ p {
     position: sticky;
     top: 0;
     background-color: rgba(207, 207, 152, 1);
-    line-height: 3.6;
+    line-height: 2;
     color: rgb(114, 66, 158);    
+    margin-bottom: 33px !important;
 }
 
 #headertext {
@@ -101,13 +102,10 @@ p {
 
 .stickytitles {
     position: sticky;
-    top: 42px;
-    /* left: 85px; */
-    /* background-color: rgba(207, 207, 152, .1); */
-    text-align: center;
-
-
+    top: 60px;
+    text-align: right;
 }
+
 
 td {
     /* border: 3px dotted greenyellow; */
