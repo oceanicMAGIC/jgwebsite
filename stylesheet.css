@@ -20,16 +20,8 @@ li {
     text-align: left;
 }
 
-img {
 
-}
 
-#headertext {
-    color: rgb(114, 66, 158);    
-    /* line-height: .8; */
-    width: 100%;
-    text-align: right;
-}
 
 a {
     color: rgb(114, 66, 158);
@@ -55,9 +47,20 @@ a:hover {
     background-color: rgba(207, 207, 152, 0.73);
 }
 
+h1 {
+    font-weight: 300;
+    font-size: 22px;
+    /* position: sticky; */
+    /* top: 12px;  */
+    /* text-align: right; */
+    /* right: 0; */
+
+}
+
 h2 {
     display: block;
     font-weight: 200;
+    text-align: center;
 }
 
 h3 {
@@ -77,13 +80,31 @@ p {
     height: 633px;
 }
 
+#stickynamediv {
+    text-align: right;
+    position: sticky;
+    top: 0;
+    background-color: rgba(207, 207, 152, 1);
+    line-height: 3.6;
+    color: rgb(114, 66, 158);    
+}
+
+#headertext {
+    /* color: rgb(114, 66, 158);     */
+    /* line-height: .8; */
+    color: white;
+    width: 100%;
+    text-align: right;
+}
+
 
 .stickytitles {
     position: sticky;
-    top: 47px;
+    top: 42px;
     /* left: 85px; */
     /* background-color: rgba(207, 207, 152, .1); */
     text-align: center;
+
 
 }
 
