@@ -8,7 +8,7 @@ body {
     position: fixed;
     top: 12px;
     left: 28px;
-    background-color: white;
+    background-color: #f9f9f9;
     width: 170px;
     z-index: 2;
     /* display: flex; */
